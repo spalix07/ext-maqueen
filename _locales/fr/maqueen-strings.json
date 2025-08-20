@@ -19,7 +19,6 @@
   "maqueen.Motors.All|block": "Tous",
   "maqueen.Servos.S1|block": "S1",
   "maqueen.Servos.S2|block": "S2",
-  "maqueen.motorStopAll|block": "Stop tous les moteurs",
   "maqueen.motorStop|block": "Stop moteur|%motors",
   "maqueen.readPatrol|block": "Lire détecteur|%patrol",
   "maqueen.Ultrasonic|block": "Lire distance capteur ultrasons (en cm)",
