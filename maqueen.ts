@@ -178,7 +178,7 @@ namespace maqueen {
             d = pins.pulseIn(DigitalPin.P2, PulseValue.Low, 500 * 58);//readPulseIn(0);
         }
         let x = d / 59;
-        let x = x * 1.5375; // Appliquer un coeff correcteur
+        x = x * 1.5375; // Appliquer un coeff correcteur
         switch (unit) {
             case PingUnit.Centimeters: return Math.round(x);
             default: return Math.idiv(d, 2.54);
